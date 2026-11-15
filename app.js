@@ -29,13 +29,13 @@ const STEPS = ['placed', 'preparing', 'out', 'delivered'];   // the progress bar
 
 // What the footer shows until the admin changes it (h1d = hours row 1 days, h1t = hours row 1 time, and so on)
 const DEFAULT_FOOTER = {
-  tagline: 'Crafted cuisine. Thoughtful ambience. Unforgettable evenings.',
-  h1d: 'Mon to Thu', h1t: '11am - 10pm',
-  h2d: 'Fri to Sat',  h2t: '11am - 12am',
-  h3d: 'Sunday',      h3t: '11am - 9pm',
-  address: '12 Church Street, Bengaluru 560001',
-  phone: '+91 80 5550 1234',
-  email: 'hello@craveassembly.com'
+  tagline: 'Your own tagline here.',
+  h1d: 'Mon to Fri', h1t: '10am - 9pm',
+  h2d: 'Sat',        h2t: '10am - 10pm',
+  h3d: 'Sunday',     h3t: 'Closed',
+  address: 'Your address here',
+  phone: '+91 00000 00000',
+  email: 'youremail@example.com'
 };
 
 /* ===== STATE ===== */
